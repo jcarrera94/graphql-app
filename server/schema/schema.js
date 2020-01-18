@@ -17,12 +17,14 @@ const books = [
   { name: 'The Long Earth', genre: 'Sci-Fi', id: '3', authorId: '3' },
   { name: 'The Colour of Magic', genre: 'Fantasy', id: '5', authorId: '3' },
   { name: 'The Light Fantastic', genre: 'Fantasy', id: '6', authorId: '3' },
+  { name: 'Harry Potter', genre: 'Fantasy', id: '7', authorId: '4' },
 ];
 
 const authors = [
   { name: 'Patrick Rothfuss', age: 44, id: '1' },
   { name: 'Brandon Sanderson', age: 42, id: '2' },
   { name: 'Terry Pratchett', age: 66, id: '3' }
+  { name: 'J.K Rowling', age: 57, id: '4' }
 ];
 
 const BookType = new GraphQLObjectType({
